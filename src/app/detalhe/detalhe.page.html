@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>detalhe</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Projeto Extensão</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-list>
+    <ion-item>
+      <ion-input label="Nome da empresa:" placeholder="Aplicativo Fitness"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Aluno 1:" placeholder="Arthur Fiuza Guimarães"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Aluno 2:" placeholder="Christophe Bomfim Guimarães"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Professor:" value="prof. Luiz Maia"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Coordenador:" value="prof. Becsom e Air Rabelo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Readonly input" value="Madison" [readonly]="true"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input label="Disabled input" value="53703" [disabled]="true"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button [routerLink] = "'/home/'">Voltar</ion-button>
+</ion-content>
